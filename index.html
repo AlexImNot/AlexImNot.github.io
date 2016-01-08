@@ -1,14 +1,9 @@
-<?php
-	include '_main.php';
-	$title = "//homepage"
-?>
-
 <!DOCTYPE html>
 <html>
 	<head>
 	    <!-- Main "Items" -->
 	    <meta charset="UTF-8">
-		<title><?php echo $title; ?></title>
+		<title>//Homepage</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link rel="stylesheet" href="assets/css/font-awesome.min"/>
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,7 +14,13 @@
 		<link rel="icon" type="image/x-icon" href="favicon.ico" />
 		
 		<!-- Search stuff -->
-        <?php include "assets/extra/meta.php"; ?>
+        <meta content="https://alexflipnote.github.io" property="og:url" />
+        <meta content="website" property="og:type" />
+        <meta name="author" content="Alexander Samuelsen-Manso">
+        <meta name="description" content="Hi, i'm a Web-Developer, take contact with me if you wish to speak with me about something!">
+        <meta name="keywords" content="AlexFlipnote, Alexander, Samuelsen-Manso, HTML5, CSS3, PhP, JavaScript, Js, Windows, Linux, FTP, Coder, Web-Developer, Web, Developer">
+        <meta content="assets/css/images/image.jpg" property="og:image" />
+        <link rel="image_src" href="assets/css/images/image.jpg">
 	</head>
 	
 	<body class="landing">
@@ -29,8 +30,8 @@
 		<div class="wrapper">
 
 			<div class="title animate">
-                <img src="<?php echo $str_avatar; ?>">
-				<h1><?php echo $str_name; ?></h1>
+                <img src="assets/css/images/image.jpg">
+				<h1>AlexFlipnote</h1>
 				<h2>HTML, CSS & PHP  &nbsp;&bull;&nbsp; Linux & Windows Server</h2>
 			</div>
 			
@@ -57,7 +58,10 @@
             </a>
 		</div>
 		
-		<?php include "assets/extra/script.html"; ?>
+		<script src="assets/js/_main.js"></script>
+        <script src="assets/js/https.js"></script>
+        <script src="assets/js/animate.js"></script>
+        <script src="assets/js/google.js"></script>
 		
 	</body>
 </html>
