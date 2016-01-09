@@ -179,6 +179,11 @@
 	height:25px;
     padding-left: 10px;
     }
+    
+    a._404, h1._404 {
+        color: white;
+        font-size: 40px;
+    }
 	
 	/* Fonts */
 	h1,h2,h3,h4,p,a,li {
